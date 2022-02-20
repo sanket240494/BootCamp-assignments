@@ -1,0 +1,35 @@
+prob no.data.csv 
+soluction
+
+I) $ cat data.csv | awk '{if ($4 > 10000) {print $2 "   " $7} }
+output-
+EmployeeName   TotalPay
+NATHANIEL      567595
+GARY           538909
+ALBERT         335279
+CHRISTOPHER    332343
+PATRICK        326373
+DAVID          316285
+ALSON          315981
+DAVID          307899
+JOANNE         302377
+PATRICIA       297608
+EDWARD         294580
+
+
+
+II) $ cat data.csv | grep CAPTAIN | awk '{sum+=$7} END {print sum/NR}'
+output-390599
+
+
+III) $ cat data.csv | awk '{if ($5>=7000 && $5<=10000) {print $3"    "$5} }' 
+output-
+DEPUTYCHIEF    9737
+ASSTDEPUTY    8601
+
+
+iv) $ cat data.csv | grep CAPTAIN | awk '{sum+=$4} END {print sum/NR}'
+output- 156142
+    
+
+

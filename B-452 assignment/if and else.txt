@@ -1,0 +1,30 @@
+1)
+read -p "Enter first value : " a;
+read -p "Enter second value : " b;
+read -p "Enter third value : " c;
+read -p "Enter fourth value : " d;
+read -p "Enter fifth value : " e;
+
+if [ $a -gt $b ]
+then
+        echo "first value is greater than second value";
+else
+        echo "second value is greater than first value";
+if [ $b -gt $c ]
+then
+        echo "second value is greater than third value";
+else
+        echo "third value is greater than second value";
+if [ $c -gt $d ]
+then
+        echo "third value is greater than fourth value";
+else
+  echo "fourth value is greater than third value";
+if [ $d -gt $e ]
+then
+        echo "fourth value is greater than fifth value";
+else
+        echo "fifth value is greater than fourth value";
+fi
+
+

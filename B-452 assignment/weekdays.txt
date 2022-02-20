@@ -1,0 +1,27 @@
+weekday ="enter weekday number (1-7)"
+if [weekday -eq 1]
+then
+        echo "monday"
+elif [weekday -eq 2]
+then
+        echo "tuesday"
+elif [weekday -eq 3]
+then
+        echo "wednesday"
+elif [weekday -eq 4]
+then
+        echo "thursday"
+elif [weekday -eq 5]
+then
+        echo "friday"
+elif [weekday -eq 6]
+then
+        echo "saturday"
+elif [weekday -eq 7]
+then
+        echo "sunday"
+else
+        echo " please enter weekday number(1-7)"
+
+fi
+

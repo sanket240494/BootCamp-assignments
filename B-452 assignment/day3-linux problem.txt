@@ -1,0 +1,24 @@
+prob no.2
+soluction:-
+a) touch abc.txt def.txt ghi.txt jkl.txt
+b) ls
+c) def.txt  jkl.txt  abc.txt  ghi.txt
+d) mkdir abc def ghi jkl
+e) mv abc.txt abc  
+   mv def.txt def
+   mv ghi.txt ghi
+   mv jkl.txt jkl
+
+
+prob no.3
+soluction:-
+a) touch abc.log.1 def.log.1 ghi.log.1 jkl.log.1 mno.log.1
+b) ls
+c) abc.log.1 def.log.1 ghi.log.1 jkl.log.1 mno.log.1
+d)
+e)
+f)
+
+
+prob no.3
+soluction:-
